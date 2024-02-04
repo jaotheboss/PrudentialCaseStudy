@@ -63,7 +63,7 @@ One thing to note about GCP CloudRun is that all apps are exposed via port 8080.
 `docker push <account-id>.dkr.ecr.ap-southeast-1.amazonaws.com/rag-app:0.1`
 
 ## Example of How to Use
-[Watch the video!](https://youtu.be/Q3mtkexvLXA)
+[![Watch the video!](./screenshot/Sample_Screenshot.png)](https://youtu.be/Q3mtkexvLXA)
 
 
 ## Benchmark Questions:
