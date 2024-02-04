@@ -1,0 +1,4 @@
+llama-index==0.9.42.post1
+pypdf==4.0.1
+streamlit==1.31.0
+openai==1.11.0

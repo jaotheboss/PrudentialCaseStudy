@@ -55,12 +55,15 @@ Step 5 - Deploy on CloudRun. `gcloud run deploy <app name> --image asia-southeas
 
 One thing to note about GCP CloudRun is that all apps are exposed via port 8080. That's why we declare port 8080 for the streamlit app. On top of that, we have to build the image in GCP itself if not there will be an error.
 
-### Deploying on AWS App Runner
+### Deploying on AWS App Runner [WIP]
 `aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.ap-southeast-1.amazonaws.com`
 
 `docker tag rag_app <account-id>.dkr.ecr.ap-southeast-1.amazonaws.com/rag-app:0.1`
 
 `docker push <account-id>.dkr.ecr.ap-southeast-1.amazonaws.com/rag-app:0.1`
+
+## Example of How to Use
+
 
 
 ## Benchmark Questions:
