@@ -20,7 +20,7 @@ Assumptions:
 
 ## Deployment Instructions
 The key files that are required for this app are:
-1. `data/` - the whole data folder
+1. `data/` - the whole data folder (!Note that you might have to add files into this folder yourself)
 2. `app.py` - the app logic
 3. `utils.py` - utility logic
 4. `requirements.txt` - the list package requirements
